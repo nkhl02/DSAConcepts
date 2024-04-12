@@ -2,33 +2,10 @@
     <app-navbar></app-navbar>
 </div>
 
-<div class="tabs">
+<div>
     <mat-tab-group animationDuration="0ms">
       <mat-tab label="DATA STRUCTURES">
-        
-        <div class="dstab">
-          <mat-grid-list cols="12" rowHeight="100px">
-          
-              <mat-grid-tile
-                [colspan]="2"
-                [rowspan]="5" [style.background]="'grey'">A</mat-grid-tile>
-  
-                <mat-grid-tile
-                [colspan]="10"
-                [rowspan]="5" [style.background]="'yellow'">B</mat-grid-tile>
-  
-                <!-- <mat-grid-tile
-                [colspan]="1"
-                [rowspan]="1" [style.background]="'red'">C</mat-grid-tile>
-  
-                <mat-grid-tile
-                [colspan]="2"
-                [rowspan]="1" [style.background]="'green'">D</mat-grid-tile> -->
-            
-          </mat-grid-list>
-          
-        </div>
-  
+       <app-datastructures></app-datastructures>
       </mat-tab>
       <mat-tab label="ALGORITHMS">Algorithms</mat-tab>
       <mat-tab label="PROBLEMS">Content 2</mat-tab>

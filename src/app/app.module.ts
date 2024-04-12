@@ -14,12 +14,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { FooterComponent } from './footer/footer.component';
+import { DatastructuresComponent } from './datastructures/datastructures.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
     FooterComponent,
+    DatastructuresComponent,
   ],
   imports: [
     BrowserModule,

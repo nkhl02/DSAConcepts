@@ -8,9 +8,7 @@
     padding-left: 10px;
     border-right: 10cm;
   }
-  .tabs{
-    padding-top: 2px;
-  }
-  .dstab{
-    padding-top: 5px;
-  }
+ 
+.navbar{
+  padding-bottom: 2px;
+}
