@@ -1,0 +1,15 @@
+<div>
+<mat-toolbar>
+    <mat-icon>laptop</mat-icon>
+    <span class="logo">DSA Concepts</span>
+    <span class="navbar-tabs-space"></span>
+    
+  <div class="rows">
+    <button mat-button [matMenuTriggerFor]="menu" class="myprofile">{{userInitial}}</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>{{name}}</button>
+        <button mat-menu-item>LogOut</button>
+    </mat-menu>
+  </div>
+  </mat-toolbar>
+</div>
