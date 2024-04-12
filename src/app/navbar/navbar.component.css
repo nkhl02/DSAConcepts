@@ -4,11 +4,11 @@
     flex: 1 1 auto;
   }
 
-  .myprofile{
-    background: rgb(230, 224, 224);
-    border-radius: 30%;
-  }
-  
   .logo{
     padding-left: 10px;
+    border-right: 10cm;
   }
+ 
+.navbar{
+  padding-bottom: 2px;
+}

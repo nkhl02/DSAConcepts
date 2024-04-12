@@ -11,13 +11,17 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
-
-
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { FooterComponent } from './footer/footer.component';
+import { DatastructuresComponent } from './datastructures/datastructures.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    FooterComponent,
+    DatastructuresComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatIconModule,
     MatMenuModule,
     MatButtonModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatTabsModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
