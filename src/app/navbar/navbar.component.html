@@ -5,7 +5,10 @@
     <span class="navbar-tabs-space"></span>
     
   <div class="rows">
-    <button mat-button [matMenuTriggerFor]="menu" class="myprofile">{{userInitial}}</button>
+    
+    <button [matMenuTriggerFor]="menu" mat-icon-button aria-label="My Profile">
+      <mat-icon>account_circle</mat-icon>
+    </button>
     <mat-menu #menu="matMenu">
         <button mat-menu-item>{{name}}</button>
         <button mat-menu-item>LogOut</button>
